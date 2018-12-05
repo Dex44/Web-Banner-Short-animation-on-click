@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <script type="text/javascript">
+  function ani(){
+    document.getElementById('circleshadow').className ='circleshadow';
+      document.getElementById('circle').className ='circle';
+      document.getElementById('centershadow').className ='centershadow';
+      document.getElementById('text').className ='text';
+      document.getElementById('slice').className ='slice'; 
+      document.getElementById('click').style.display = 'none';
+
+  }
+</script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cheese</title>
+    <link rel="stylesheet" type="text/css" href="Style.css">
+</head>
+        
+        <body>         
+            <div class="Home">
+                <div id="circleshadow"></div>
+                <div id="circle"></div>
+                <div class="boy"></div>
+                <div id="centershadow"></div>
+                <div id="text"></div> 
+                <div id="slice"></div>
+                <div id="click">Click Me</div>
+                <div class="clickme" onclick="ani()"></div>
+            </div>
+
+        </body>
+</html>
